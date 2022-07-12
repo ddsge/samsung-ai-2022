@@ -8,8 +8,8 @@ if __name__ == "__main__":
     model = 'luigi'
 
     # load shape information
-    vertices = np.loadtxt('../lab3-1_data/%s/%s_vertices.csv' % (model, model), delimiter=',', dtype=np.float32)
-    vertex_normals = np.loadtxt('../lab3-1_data/%s/%s_vertex_normals.csv'% (model, model), delimiter=',',
+    vertices = np.loadtxt('../data/%s/%s_vertices.csv' % (model, model), delimiter=',', dtype=np.float32)
+    vertex_normals = np.loadtxt('../data/%s/%s_vertex_normals.csv'% (model, model), delimiter=',',
                                 dtype=np.float32)
 
     # first, let's create a grid
