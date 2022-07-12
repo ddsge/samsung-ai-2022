@@ -48,6 +48,7 @@ o3d.visualization.draw_geometries([cube])
 2) Add texture to a mesh
 """
 text = cv2.imread('../data/cube_texture.png')
+text = cv2.cvtColor(text, cv2.COLOR_BGR2RGB)
 
 ###############################################################
 ##########################  TODO  #############################
